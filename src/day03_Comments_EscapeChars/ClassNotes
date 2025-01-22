@@ -1,0 +1,55 @@
+day03
+   files & their extensions
+
+   text file                                .txt
+   PDF files                                .pdf
+   picture                                  .jpg, .png,  .gif,  .tiff etc
+   word document                            .doc
+   excel files                              .xlsx
+   power point                              .ppt
+   java files                               .java -----(source code)
+   java file                                .class ----(Byte code)
+
+   how to open preference window
+
+   windows:
+   files> settings
+
+
+   Mac:
+      intellij IDEA > preferences
+
+
+      how to rename?
+         right click > refactor>  rename
+
+      how to create project?
+          file> new> project
+
+
+          package: used for storing java files in an organized manner
+              right click--> new > package
+
+
+              package names starts with lower_case_letter
+
+          Java File:
+
+             right  click  -->  new --> Java Class
+
+
+          class name  -->  starts with UpperCaseLetter
+
+          CamelCase
+
+      Screenshot     PRTSC  Win+ Shift+S
+
+
+
+
+
+
+
+
+
+
