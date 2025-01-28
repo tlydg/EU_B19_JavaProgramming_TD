@@ -7,8 +7,7 @@ public class C04_IfExample {
 
        int ay =3;
 
-
-       if (ay >=1 && ay <=12){
+       if (ay >= 1 && ay <= 12){
            String mevsim = "";
            if (ay >=3 && ay <=5){
                mevsim = "İlk Bahar";

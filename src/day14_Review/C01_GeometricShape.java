@@ -10,21 +10,22 @@ public class C01_GeometricShape {
         int kenarSayisi = 3;
         String sekil = ""; // bu yapıyı çok kulllanacağız alış.
 
-        if (kenarSayisi ==3){
+        if ( kenarSayisi ==3){
             sekil ="Ucgen";
         } else if (kenarSayisi == 4) {
             sekil ="Dörtgendir";
         } else if ( kenarSayisi == 5) {
             sekil ="Beşgendir";
-        } else if ( kenarSayisi ==6) {
+        } else if ( kenarSayisi == 6) {
             sekil ="Altıgendir";
 
         }else {
             System.out.println("Belirlenmemiş şekil. ");
         }
 
-        if (kenarSayisi >=3 && kenarSayisi <= 6)
+        if (kenarSayisi >= 3 && kenarSayisi <= 6)
         System.out.println(" Bu bir " + sekil + " 'dir. ");
+
     }
 
 }

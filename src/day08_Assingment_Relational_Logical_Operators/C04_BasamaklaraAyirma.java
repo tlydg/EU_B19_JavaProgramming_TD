@@ -27,6 +27,9 @@ public class C04_BasamaklaraAyirma {
         System.out.println("yuzler = " + yuzler);
         System.out.println("binler = " + binler);
 
+        int basamakTop = birler + onlar + yuzler + binler;
+        System.out.println("basamakTop = " + basamakTop);
+
 
     }
 }
