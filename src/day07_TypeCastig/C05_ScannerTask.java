@@ -18,9 +18,6 @@ public class C05_ScannerTask {
         System.out.println("Lütfen kuvvet giriniz : ");
         int kuvvet =input.nextInt();
 
-
-
-
         System.out.println("number = " + number);
 
         System.out.println("Girdiğiniz sayının iki fazlasının karesi : " +(number+2)*(number+2));

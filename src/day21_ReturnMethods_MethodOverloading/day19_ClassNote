@@ -1,0 +1,23 @@
+Day19
+
+
+Return Methods - OverLoading
+/** + Enter ---> Method Description
+
+Başka bir classın methodunu çağırırken
+bulunduğumuz classta
+ClassAdı.methodAdi() -- yazarak çağırabiliriz.
+
+
+Method Overloading
+Multiple different methods sharing the same NAME
+- same MethodNAme, diffirent parameters
+- return type, access modifiers, specifier can be same or different
+
+Advamtages
+1. easy to remember
+2. easy to read (readable)
+3. reusable
+4. flexible
+
+Task:
