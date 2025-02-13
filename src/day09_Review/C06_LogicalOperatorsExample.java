@@ -12,10 +12,9 @@ public class C06_LogicalOperatorsExample {
         String citizenship = "Turkish";
 
         boolean isEligibileToVote = age>=18 && citizenship.equalsIgnoreCase("turkish");
-        boolean isEligibileToVote1 = age>=18 && citizenship.equals("turkish");
+        boolean isEligibileToVote1 = age>=18 && citizenship.equals("Turkish");
 
         System.out.println("isEligibileToVote = " + isEligibileToVote);
-
         System.out.println("isEligibileToVote1 = " + isEligibileToVote1);
 
         System.out.println("------------------------------------");
@@ -33,7 +32,7 @@ public class C06_LogicalOperatorsExample {
 
         System.out.println(name2 + " Java Bankasından Kredi Almaya Uygun= " + isEligibleLoan);
 
-        System.out.println("-----------------------");
+        System.out.println("--------------------------------------------");
 
         String name3 = "Mike";
         int age3 = 70;
@@ -42,7 +41,7 @@ public class C06_LogicalOperatorsExample {
         boolean isEligibileToBuyAlcohol = age3 >=21 && (gender =='M' || gender =='F');
         System.out.println("isEligibileToBuyAlcohol = " + isEligibileToBuyAlcohol);
 
-        System.out.println("------------------------------");
+        System.out.println("------------------------------------------------------");
 
 
         String studentName= "Ayşe";
@@ -55,7 +54,7 @@ public class C06_LogicalOperatorsExample {
         boolean isEligibileToBurs= gpa >=3.5 || familyIncome < 20000 ;
         System.out.println("isEligibileToBurs = " + isEligibileToBurs);
 
-        System.out.println("----------------------------------");
+        System.out.println("--------------------------------------------------");
 
         boolean result= true;
         System.out.println("result = " + result);
@@ -64,9 +63,8 @@ public class C06_LogicalOperatorsExample {
         System.out.println("------------------");
 
         int examScore = 55;
-
-        boolean isPassed = examScore >=60 ;
-        boolean isFailed = !isPassed;
+        boolean isPassed = examScore >=60 ; // false
+        boolean isFailed = !isPassed;   // true
 
         System.out.println("isPassed = " + isPassed);
         System.out.println("isFailed = " + isFailed);

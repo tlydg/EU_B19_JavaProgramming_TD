@@ -18,11 +18,9 @@ public class C01_GeometricShape {
             sekil ="Beşgendir";
         } else if ( kenarSayisi == 6) {
             sekil ="Altıgendir";
-
         }else {
             System.out.println("Belirlenmemiş şekil. ");
         }
-
         if (kenarSayisi >= 3 && kenarSayisi <= 6)
         System.out.println(" Bu bir " + sekil + " 'dir. ");
 

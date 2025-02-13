@@ -12,17 +12,12 @@ public class C07_CheckNumbers {
         int b =70;
 
         if (a>b){
-
             System.out.println("a = " + a);
         } else if (a==b) {
-
             System.out.println(" a eşittir b");
-
         }else {
-
             System.out.println("b = " + b);
         }
-
         System.out.println("Program bitti");
 
     }

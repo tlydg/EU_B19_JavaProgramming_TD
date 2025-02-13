@@ -1,0 +1,32 @@
+Java --  OOP  --  OBJECT ORIENTED PROGRAMMING
+
+
+            Classadi objeadi= new Classadi();
+
+                     Stack    ---  Heap
+
+                                    car1.name
+                                    car1.model
+                                    car1.renk
+
+Static Non Static Methods ve Variables
+
+            Static Method ve Değişlenler -- class a aittir ve class adı ile çağrılır
+
+            Classname.VariableName;
+            Classname.Methodname;
+
+            Static olmayan değişken ve method Objeye aittir--- Nesneye aittir Nesne oluşturulmadan çağrılmaz
+
+            Classname cls=new Clasname();
+            cls.VariableName;
+            cls.MethodName;
+TASK
+        Math2
+        pow methodu yazın--  pow(num1, num2)
+            iki sayı alacak ve birinci sayı taban ikinci sayı kuvvet olacak
+            2 üzeri 4 = 2*2*2*2
+
+
+1. obje oluşturmadan methodu  farklı bir  Main Class da çağırın
+2. obje oluşturarak methodu farklı bir Main class da çağırın

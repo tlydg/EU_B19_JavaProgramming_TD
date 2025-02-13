@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C03_MethodsWithParameters {
     public static void main(String[] args) {
+
         oddOrEven((int) Math.pow(2, 4));
         oddOrEven(54);  //
 
@@ -50,7 +51,7 @@ public class C03_MethodsWithParameters {
      *
      */
     public static void printNumbers(int minNumber,int maxNumber){
-        for (int i = minNumber; i <maxNumber ; i++) {
+        for (int i = minNumber; i < maxNumber ; i++) {
             System.out.print(i+ "");
 
         }

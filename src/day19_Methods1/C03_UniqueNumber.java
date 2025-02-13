@@ -21,7 +21,7 @@ public class C03_UniqueNumber {
 
         int sonuc;
 
-        if (sayi1 == sayi2 && sayi2 ==sayi3 ){
+        if (sayi1 == sayi2 && sayi2 == sayi3 ){
             sonuc =1;
         } else if (sayi1 == sayi2 || sayi1 == sayi3 || sayi2 ==sayi3 ) {
             sonuc =2;

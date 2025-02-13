@@ -31,7 +31,6 @@ public class C04_Calculator {
         } else if (islem.equals("/")) {
             System.out.println(sayi1/sayi2);
         }else {
-
             System.out.println("Hatalı işlem girdiniz");
         }
 

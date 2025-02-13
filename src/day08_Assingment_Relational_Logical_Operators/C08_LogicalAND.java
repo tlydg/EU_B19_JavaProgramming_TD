@@ -22,7 +22,7 @@ public class C08_LogicalAND {
         boolean result2 = (i1 != i2) && ( i1 >= i2);
         System.out.println("result2 = " + result2); // true
 
-        // ek operator ile cift operator arasindaki fark sonucla ilgili degildir.
+        // tek operator ile cift operator arasindaki fark sonucla ilgili degildir,
         // performans ile ilgilidir.
 
 

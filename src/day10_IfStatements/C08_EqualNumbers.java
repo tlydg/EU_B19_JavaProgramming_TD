@@ -21,23 +21,14 @@ public class C08_EqualNumbers {
         System.out.println("z = " + z);
 
         if (x==y){
-
             System.out.println(x);
-
-
         } else if (y==z) {
-
             System.out.println(z);
-
         } else if (x==z) {
-
             System.out.println(x);
-
         }else {
-
             System.out.println(" eşitlik yoktur");
         }
-
         System.out.println("Programı bitir.");
 
 

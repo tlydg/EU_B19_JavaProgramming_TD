@@ -18,7 +18,8 @@ public class C01_ForLoop_1 {
         // new way with loop
 
         for (int i =0 ; i<5 ; i++) {
-            System.out.println(message); // bu şekilde sabitse statiktir, yani sadece hello word yazdırıyoruz.
+            System.out.println(message);
+            // bu şekilde sabitse statiktir, yani sadece hello word yazdırıyoruz.
 
         }
         // bir değişken sadece body içinde tanımlıysa localdir.

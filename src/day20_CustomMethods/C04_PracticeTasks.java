@@ -30,7 +30,8 @@ public class C04_PracticeTasks {
      * @return
      */
     public static double areaOfSquare(int side){
-        return side * side; // sadece döndür yapıyoruz ifade double gelecek.
+        return side * side;
+        // sadece döndür yapıyoruz ifade double gelecek.
     }
     public static double perimeterOfSquare(int side){
         double cevre = 4*side;

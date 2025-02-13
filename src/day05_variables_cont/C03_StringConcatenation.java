@@ -36,10 +36,11 @@ public class C03_StringConcatenation {
         // Aslı Yılmaz bu şekilde yazdırmak istersek
         System.out.println(name + " " + surname);
 
-        String s= "";
+        String s = "";
         int i = 3;
 
         String s1 = i + s;
+        System.out.println(s1);
         System.out.println("s1 = " + s1 + 5); // 35
 
         String str = "2528"; // bu bir rakam değil bir metin değeri olur.

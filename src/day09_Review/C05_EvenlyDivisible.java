@@ -1,13 +1,12 @@
-package day07_TypeCastig;
+package day09_Review;
 
 import java.util.Scanner;
 
 public class C05_EvenlyDivisible {
-
     public static void main(String[] args) {
-
-        /*
-       *  Create a class called C04_EvenlyDivisible,and write a program that gets an integer number from user
+         /*
+       *  Create a class called C04_EvenlyDivisible,
+       * and write a program that gets an integer number from user
       check if a number is evenly divisible by 2, 3, 5, 6, 9, 11
 
           Ex:
@@ -17,12 +16,11 @@ public class C05_EvenlyDivisible {
             65 is divisible by 2: false
             65 is divisible by 3: false
             65 is divisible by 5: true
-            65 is divisible by 6: true
+            65 is divisible by 6: false
             65 is divisible by 9: true
         */
 
         Scanner input=new Scanner(System.in);
-
         System.out.println("Enter an integer number :");
         int number = input.nextInt();
 
@@ -39,9 +37,6 @@ public class C05_EvenlyDivisible {
         System.out.println(number + " is divisible by 6: " + isDivisbleBy6);
         System.out.println(number + " is divisible by 9: " + isDivisbleBy9);
         System.out.println(number + " is divisible by 11: " + isDivisbleBy11);
-
-
-
 
     }
 }

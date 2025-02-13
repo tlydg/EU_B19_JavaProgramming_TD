@@ -7,11 +7,12 @@ public class C05_SwitchCaseExamples {
     public static void main(String[] args) {
 
        /*
-Write a program to display traffic light colors using following logic:
-if code (R/r)—>"Red"
-if code (A/a)—>"Amber"
-if code (G/g)—>"Green"
- */
+        Write a program to display traffic light colors using following logic:
+        if code (R/r)—>"Red"
+        if code (A/a)—>"Amber"
+        if code (G/g)—>"Green"
+        */
+
         Scanner renkGir = new Scanner(System.in);
         System.out.println("Trafik Lambası rengini tek harf olarak giriniz : ");
         String color = renkGir.next();
@@ -39,7 +40,7 @@ if code (G/g)—>"Green"
                 System.out.println("Trafik lambasında böyle bir renk yoktur. ");
 
         }
-/// ///////////////////////////////////////
+////////////////////////////////////////////
 
 
         Scanner renkGir1 = new Scanner(System.in);

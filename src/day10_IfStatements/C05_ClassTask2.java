@@ -6,21 +6,13 @@ public class C05_ClassTask2 {
 
     public static void main(String[] args) {
 
-
         double sicaklik = -2;
 
         if (sicaklik>20){
-
             System.out.println("Hava sıcak");
-
-
         }else {
-
             System.out.println("Hava soguk");
-
-
         }
-
         System.out.println("Program bitti");
 
         /*
@@ -32,7 +24,7 @@ sıcaklık 20 derece ve altında ise hava soğuk yazsın
         System.out.println("--------------------------");
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Sayi giriniz");
+        System.out.println("Sayi giriniz : ");
 
         int sayi = input.nextInt();
         System.out.println("sayi = " + sayi);
@@ -40,15 +32,10 @@ sıcaklık 20 derece ve altında ise hava soğuk yazsın
         boolean result = (sayi%2==1);
 
         if (result){
-
             System.out.println("Sayı tektir");
 
-
         }else {
-
             System.out.println("Sayı çiftir");
-
-
         }
 
         System.out.println("Program bitti");

@@ -28,6 +28,7 @@ public class C08_If_Homework1 {
         System.out.println("Müşteri kartı var mı ? -> Evet / Hayır : ");
         String musteriKarti = input.nextLine();
 
+
         if (musteriKarti.equalsIgnoreCase("Evet") &&  urunmiktari>= 10){
             System.out.println(" % 20 indirim uygula : ");
             ucret -= ucret * 0.20 ;

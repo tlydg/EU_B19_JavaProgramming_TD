@@ -12,8 +12,8 @@ public class C04_Scanner {
 // 2. Kullanıcıyı bilgilendir!! Ne istediğini söyle
         System.out.print("Lütfen isminiz giriniz :");
 
-// 3. Girilen veriyi içene koyabileceğimiz uygun bir değişken oluştur
-// scanner uygun methodu ile veriyi değişken içersine yaz
+// 3. Girilen veriyi içene koyabileceğimiz uygun bir değişken oluştur.
+// scanner uygun methodu ile veriyi değişken içersine yaz.
 
         String name= scan.next();
 //scan.next();  ===> ilk boşluğa kadar alır ---   Ali Osman --- Ali alır

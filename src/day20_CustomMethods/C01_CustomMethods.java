@@ -23,8 +23,7 @@ public class C01_CustomMethods {
 
     public static String greetingsWithReturnType(){
           String greetings = "The secret of life is : !";
-
-        return greetings;
+          return greetings;
     }
 
 

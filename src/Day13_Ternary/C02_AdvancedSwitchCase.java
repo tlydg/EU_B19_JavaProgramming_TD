@@ -23,7 +23,6 @@ public class C02_AdvancedSwitchCase {
             case 2 -> System.out.println("B");
             case 3 -> System.out.println(22);
             default -> System.out.println("Hatalı giriş");
-
        };
     }
 }

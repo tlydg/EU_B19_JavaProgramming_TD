@@ -10,7 +10,6 @@ public class C02_If_Cont {
         if (a) {
             System.out.println(x + " 5 e eşit ya da küçüktür");
             System.out.println(x++);
-
         }
         System.out.println(x);
         // body kullanırsak eğer False sonuç ilk iki satırı atlar en son satırı yazar.

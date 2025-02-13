@@ -29,6 +29,7 @@ public class C02_DataTypesMinMax {
         System.out.println("Long.MAX_VALUE = " + Long.MAX_VALUE); // değer atamadan direk çağırdık
         System.out.println("Long.MIN_VALUE = " + Long.MIN_VALUE);
 
+
         //Float
         System.out.println("Float.MAX_VALUE = " + Float.MAX_VALUE);
         System.out.println("Float.MIN_VALUE = " + Float.MIN_VALUE);

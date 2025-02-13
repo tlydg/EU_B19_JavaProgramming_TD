@@ -9,13 +9,12 @@ public class C03_SwitchWeekDays {
         System.out.println("Switch case statement in Java");
         Scanner input = new Scanner(System.in);
         System.out.println("Gün numarasını giriniz (1-7) :" );
-        int day =input.nextInt();
+        int day = input.nextInt();
 
         String gunAdi = "";
         String gunTipi = "";
 
         switch (day){
-
             case 1 :
                 gunAdi ="Pazartesi";
                 break;
@@ -38,11 +37,13 @@ public class C03_SwitchWeekDays {
                 gunAdi = "Pazar";
                 break;
 
-            default:
-                System.out.println("Geçersiz gün bilgisi !!! ");
+          //  default:
+           //     System.out.println("Geçersiz gün bilgisi !!! ");
 
         }
-        ///////////////////////
+
+        System.out.println("-----------------------------------------------");
+
         switch (day){
             case 1:
             case 2:
@@ -55,10 +56,8 @@ public class C03_SwitchWeekDays {
             case 7:
                 gunTipi = "Haftasonu";
                 break;
-       //    default:
-      //          System.out.println("Geçersiz gün bilgisi !!!!!!");
-
-
+          default:
+               System.out.println("Geçersiz gün bilgisi !!!!!!");
 
         }if (gunAdi != "") {
             System.out.println("Haftanın " + gunAdi + " günüdür. Ve "+gunTipi+ " 'dir. ");

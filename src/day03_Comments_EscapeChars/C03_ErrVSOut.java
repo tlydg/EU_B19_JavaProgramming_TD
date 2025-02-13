@@ -10,13 +10,7 @@ public class C03_ErrVSOut {
         System.err.println("Merhaba Dünya !");
 
         System.out.println("Pazartesi\nSalı\nÇarşamba\nPerşembe\nCuma\nCumartesi\nPazar");
-
-
     }
-
-
-
-
 }
 
 /*

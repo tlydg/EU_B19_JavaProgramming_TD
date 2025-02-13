@@ -8,13 +8,13 @@ public class C06_Calculator {
         Scanner input = new Scanner(System.in);
         System.out.println("Hesap Makinesi");
         System.out.println("----------------------");
-
         int sonuc = 0;
 
         System.out.println("1. sayıyı giriniz : ");
         int sayi1 = input.nextInt();
 
-        input.nextLine(); // Scanner clasında sayı inputundan sonra string alınması için araya bir nextLine konulmalıdır.
+        input.nextLine();
+        //Scanner clasında sayı inputundan sonra string alınması için araya bir boş nextLine() konulmalıdır.
 
         System.out.println("Bir işlem operatoru giriniz -> '+', '-', '*','/' : ");
         String islemOperatoru = input.nextLine();
@@ -33,7 +33,6 @@ public class C06_Calculator {
                     sayi2 =input.nextInt();
                 }
                 sonuc = sayi1 / sayi2;
-
             }
             default -> System.out.println("Yanlış operator girdiniz !!!");
         }

@@ -31,7 +31,6 @@ public class C02_Homework {
         }else if (ortalama>=0 && ortalama<60){
             System.out.println("Dersten Kaldınız Notunuz F");
         }else {
-
             System.out.println("Notları yanlış girdiniz tekrar giriniz");
         }
 

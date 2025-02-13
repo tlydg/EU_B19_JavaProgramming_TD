@@ -31,7 +31,6 @@ public class C04_AdvancedSwitch {
             case 6,7 -> gunTipi = "Haftasonu";
             default -> System.out.println("Geçersiz gün bilgisi!!!");
         }
-
         if (gunAdi != ""){
             System.out.println("Haftanın "+gunAdi+ " günüdür. Ve "+gunTipi+ "'dir.");
         }

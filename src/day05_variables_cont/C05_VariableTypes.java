@@ -24,13 +24,9 @@ public class C05_VariableTypes {
         System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE);
 
         int x =10;
-
         x = x + 5;  // java önce işlemin sağ tarafına bakar.
-
         System.out.println("x = " + x); // x=15
-
         x = x + 5;
-
         System.out.println("x = " + x); // x =20
 
 

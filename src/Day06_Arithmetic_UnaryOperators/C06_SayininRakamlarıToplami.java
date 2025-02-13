@@ -6,7 +6,7 @@ public class C06_SayininRakamlarıToplami {
 
     public static void main(String[] args) {
         // Kullanicidan 3 basamakli bir sayi alin
-        // ve sayinin sakamlari toplamini ekrana yazdirin!
+        // ve sayinin rakamlari toplamini ekrana yazdirin!
 
         // 112  = 1 + 1 + 2 = 4
         // 952  = 9 + 5 + 2 = 16

@@ -7,7 +7,7 @@ public class C13_ParameterizedMethod {
         System.out.println("max = " + max);
     }
     public static int buyukSayi (int sayi1, int sayi2 ){
-        if(sayi1 >=sayi2){
+        if(sayi1 >= sayi2){
             return sayi1;
         }else {
             return sayi2;

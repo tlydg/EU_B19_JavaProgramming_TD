@@ -22,9 +22,9 @@ public class C05_SwappingTwoNumbers {
         System.out.println("sayi2 = " + sayi2);
 
         // 2. cözüm
-        sayi1 +=  sayi2 ;
-        sayi2 = sayi1 - sayi2;
-        sayi1 -=  sayi2;
+        sayi1 +=  sayi2 ; // sayi1 = sayi1 + sayi2 = 48
+        sayi2 = sayi1 - sayi2; // 15
+        sayi1 -=  sayi2; // 48-15 = 33
         System.out.println("sayi1 = " + sayi1);
         System.out.println("sayi2 = " + sayi2);
 

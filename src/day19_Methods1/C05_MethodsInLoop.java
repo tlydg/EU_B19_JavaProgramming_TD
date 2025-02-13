@@ -8,7 +8,6 @@ public class C05_MethodsInLoop {
         for (int i = 0; i <= 5; i++) {
             displayMessage();
             System.out.println("Loop içi");
-
         }
         System.out.println("Loop sonrası");
     }

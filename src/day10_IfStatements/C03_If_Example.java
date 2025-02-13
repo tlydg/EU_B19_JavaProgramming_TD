@@ -4,7 +4,7 @@ public class C03_If_Example {
     public static void main(String[] args) {
         double fizik = 50;
         double kimya = 30;
-        double ortalama = ( fizik + kimya) /2;
+        double ortalama = ( fizik + kimya) /2; // 40
 
         System.out.println("ortalama = " + ortalama);
 

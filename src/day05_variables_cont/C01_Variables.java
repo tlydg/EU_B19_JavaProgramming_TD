@@ -7,19 +7,16 @@ public class C01_Variables {
     public static void main(String[] args) {
 
         String name = "Ahmet";
-      System.out.println("name.toUpperCase() = " + name.toUpperCase());
-        // yukarıdaki String Non Primitive (obje) olduğu için özellik atanabiliyor ve AHMET şeklinde büyük yazılabiliyor.
+        System.out.println("name.toUpperCase() = " + name.toUpperCase());
+        // yukarıdaki String Non Primitive (obje) olduğu için özellik atanabiliyor,
+        // ve AHMET şeklinde büyük yazılabiliyor.
         //ama Primitive olanlara özellik atayamazsın, int olanlara özellik atanmaz.
 
         System.out.println("name = " + name);
-
         int age = 30;
-
         // declaration
         String surname;
-
         // non primitivi data typelerine eğer değer atanmadıysa default null alır.
-
         surname = "Yılmaz"; // assignment -- atama
         System.out.println("surname = " + surname);
 
@@ -31,32 +28,23 @@ public class C01_Variables {
 
         // boolean isOpen = true;
 
-        boolean control = ( age> 20);
+        boolean control = (age > 20);
         System.out.println("control = " + control);
-
         System.out.println("age = " + age);
 
         // iki sayının eşit olup olmadığı
 
         boolean isEqual;
-
-        isEqual = b1 == b2 ;
+        isEqual = b1 == b2;
 
         System.out.println("isEqual = " + isEqual);
 
         // declaration
-        int a=5, b =10, c;
-
-        int e =a, d;
+        int a = 5, b = 10, c;
+        int e = a, d;
 
         int x;
         int y;   // clean code
-
-
-
-
-
-
 
 
     }

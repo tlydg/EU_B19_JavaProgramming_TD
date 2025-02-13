@@ -16,12 +16,12 @@ public class C07_ClassTask3 {
         // 1. Toplantı salonunun kapasitesi nedir?
 
         int kapasite = sira*siraKoltukSayisi;
-        System.out.println("kapasite = " + kapasite);
+        System.out.println("kapasite = " + kapasite); // 180
 
         // 2. Toplantida kaç adet koltuk boş kalmıştır.
 
         int bosKoltukSayisi = kapasite-katilan;
-        System.out.println("bosKoltukSayisi = " + bosKoltukSayisi);
+        System.out.println("bosKoltukSayisi = " + bosKoltukSayisi); // 67
 
         // 3. Kaç adet sirada oturulmaktadır.
 

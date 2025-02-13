@@ -15,7 +15,7 @@ public class C09_LogicalOR {
 
         // tekli operand
         boolean result1 = (i1 > i2) | ( i1 <= i2);
-        System.out.println("result1 = " + result1); //false
+        System.out.println("result1 = " + result1); //true
 
         // ciftli operand
 

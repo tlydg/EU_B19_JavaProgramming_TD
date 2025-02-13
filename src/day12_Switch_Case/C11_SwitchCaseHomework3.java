@@ -22,7 +22,6 @@ public class C11_SwitchCaseHomework3 {
         int yil = input. nextInt();
         if ((yil %4 ==0 && 100 !=0) || (yil % 400 ==0)){
             System.out.println( yil + " bir artık yıldır. ");
-
         }else {
             System.out.println( yil + " bir artık yıl değildir.");
 

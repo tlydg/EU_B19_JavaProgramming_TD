@@ -4,7 +4,6 @@ public class C07_MethodOverLoading2 {
     public static void main(String[] args) {
 
         calculateArea(5);
-
     }
     public static void calculateArea(int side1,int side2){
         System.out.println(side1*side2);

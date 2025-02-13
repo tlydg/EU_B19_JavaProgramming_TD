@@ -19,7 +19,7 @@ public class C06_Cube {
         height=8;
         System.out.println(length + " :  "+width+" : "+height);
 
-        double volume= length * width * height ;
+        double volume= length * width * height ; // hacim
         System.out.println("Prizmanın hacmi : " + volume);
 
 

@@ -11,18 +11,12 @@ public class C03_Elself_Examples {
         int aysePara =60;
 
         if (aysePara<5){
-
             aysePara +=10;
         } else if (aysePara>50) {
-
             aysePara -=20;
-
         }else {
-
         }
-
         System.out.println("aysePara = " + aysePara);
-
         System.out.println("---------------------------------");
 
         /**
@@ -40,14 +34,9 @@ public class C03_Elself_Examples {
         // boolean durum = toplam ==180;
 
         if (toplam ==180){
-
             System.out.println("Bu bir üçgendir.");
         }else {
-
             System.out.println("Bu bir üçgen değildir.");
         }
-
-
-
     }
 }

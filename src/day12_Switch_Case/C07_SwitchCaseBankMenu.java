@@ -44,7 +44,6 @@ public class C07_SwitchCaseBankMenu {
             case 4 :
                 System.out.println("Bankamızı tercih ettiğiniz için teşekkürler");
                 break;
-
                 default:
                 System.out.println("Geçersiz işlem...");
 

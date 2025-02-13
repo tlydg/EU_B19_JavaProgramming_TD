@@ -10,12 +10,8 @@ public class C04_ClassTask {
 
         System.out.print("Fizik notu giriniz: ");
         double fizik = input.nextDouble();
-
-
         System.out.print("kimya notu giriniz: ");
         double kimya = input.nextDouble();
-
-
         System.out.print("Matematik notu giriniz: ");
         double matematik = input.nextDouble();
 
@@ -28,27 +24,14 @@ public class C04_ClassTask {
 
 
         if ( ortamala > gecmeNotu){
-
-
             System.out.println("Tebrikler geçtiniz");
 
         }else {
-
             System.out.println("Sınıf tekrarı gerekmektedir");
-
-
         }
-
-
         System.out.println("Program bitti.");
 
-
-
-
     }
-
-
-
 
 }
 

@@ -18,13 +18,12 @@ public class C12_PrecedenceOfLogicalOperators {
         int i3 = 20;
 
         boolean check = i1 !=i2 || !(i1==i3) && i2==i3;
+        // normalde bu şekilde karşılaşılmaz ama sınavlar da gelebilir.
 
         //               T      ||       !(F) && F
         //               T      ||       T    &&    F
         //               T      ||       F = T
-
-
-        System.out.println("check = " + check);
+        System.out.println("check = " + check); // true
 
 
     }
