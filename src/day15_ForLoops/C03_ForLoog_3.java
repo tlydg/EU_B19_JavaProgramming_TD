@@ -39,7 +39,7 @@ public class C03_ForLoog_3 {
 
         int sonuc =0;
         for (int i = 1; i <= 50 ; i++ ){
-            sonuc += i;
+            sonuc += i; // sonuc= sonuc + i
 
         }
         System.out.println("sonuc = " + sonuc);

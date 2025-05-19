@@ -76,11 +76,11 @@ public class C07_DataTypesHomework {
         double length =5; // uzunluk
         double width =3;  // genislik
 
-        double area = length*width;
-        double perimeter = 2* (length + width);
+        double area = length*width; //15
+        double perimeter = 2* (length + width); //16
 
-        System.out.println("area = " + area);
-        System.out.println("perimeter = " + perimeter);
+        System.out.println("area = " + area); //15
+        System.out.println("perimeter = " + perimeter); //16
 
 
     }

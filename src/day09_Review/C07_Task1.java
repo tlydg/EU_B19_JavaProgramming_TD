@@ -8,7 +8,7 @@ public class C07_Task1 {
         String name = "Ahmet";
         byte age =25;
 
-        boolean isEligibiletoBuyCigarettes = age>= 21;
+        boolean isEligibiletoBuyCigarettes = age>= 21; // true
         System.out.println(name + " sigara satın almaya uygundur : " + isEligibiletoBuyCigarettes);
 
 

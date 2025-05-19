@@ -27,13 +27,13 @@ public class C02_ClassTask {
 
         int dogumYili=1990;
         int yasAli= 2025-dogumYili;
-        System.out.println("yasAli = " + yasAli);
-        System.out.println("Ali'nin yaşı "  + yasAli + " dir ");
+        System.out.println("yasAli = " + yasAli); //35
+        System.out.println("Ali'nin yaşı "  + yasAli + " dir "); //35
 
         int yasAhmet= yasAli - 5;
 
-        System.out.println("Ali'nin yaşı "  + yasAli + " dir ");
-        System.out.println("Ahmet'in yaşı " + yasAhmet + " dir ");
+        System.out.println("Ali'nin yaşı "  + yasAli + " dir "); //35
+        System.out.println("Ahmet'in yaşı " + yasAhmet + " dir "); //30
 
         /*
          Task 3
@@ -43,7 +43,7 @@ public class C02_ClassTask {
 
         double f=300;
         double c=(f-32) /1.8;
-        System.out.println(f + "Fahrenheit" +c+ "Celsius' dur");
+        System.out.println(f + " Fahrenheit " +c+ " Celsius' dur ");
 
         /*
         Task4

@@ -9,12 +9,10 @@ public class C03_If_Example {
         System.out.println("ortalama = " + ortalama);
 
         if (ortalama>50) {
-
             System.out.println("Ali geçti");
             System.out.println("Öğretmen Ali'yi tebrik etti.");
 
         }else {
-
             System.out.println("Ali kaldı");
             System.out.println("Öğretmen Ali'ye çok çalışmalısın dedi.");
         }

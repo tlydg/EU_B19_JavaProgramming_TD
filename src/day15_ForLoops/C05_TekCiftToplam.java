@@ -11,7 +11,6 @@ public class C05_TekCiftToplam {
         int cift= 0;
 
         for (int i = 1; i <=100 ; i++ ){
-
             if(i %2 == 0 ){
                 cift += i;
             }else {
@@ -29,9 +28,8 @@ public class C05_TekCiftToplam {
         int ciftSayilar= 0;
 
         for (int i = 1; i <=100 ; i++ ){
-
-          ciftSayilar +=  (i % 2 ==0) ? i : 0;
-          tekSayilar +=  (i % 2 == 1) ? i : 0;
+            ciftSayilar +=  (i % 2 ==0) ? i : 0;
+            tekSayilar +=  (i % 2 == 1) ? i : 0;
 
         }
         System.out.println("ciftSayilar = " + ciftSayilar);

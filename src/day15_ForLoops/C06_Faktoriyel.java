@@ -13,7 +13,6 @@ public class C06_Faktoriyel {
         int sonuc =1;
 
         for ( int i = 1; i<= gilenSayi; i++ ){
-
             sonuc *= i;
         }
         System.out.println("sonuc = " + sonuc);

@@ -31,7 +31,7 @@ public class C04_Variables {
         int num1 = 5;
         int num2 = 54;
 
-        boolean c = num1 == num2; // true
+        boolean c = num1 == num2; // false
         System.out.println("c = " + c);
 
         int i1, i2, i3;

@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class C05_ClassTask2 {
 
     public static void main(String[] args) {
+        /*
+hava sıcaklığı isminde bir değişken declere edin ve değer atayın
+sıcaklık 20 derece üzerinde ise hava sıcak yazsın
+sıcaklık 20 derece ve altında ise hava soğuk yazsın
+ */
 
         double sicaklik = -2;
 
@@ -15,13 +20,12 @@ public class C05_ClassTask2 {
         }
         System.out.println("Program bitti");
 
-        /*
-hava sıcaklığı isminde bir değişken declere edin ve değer atayın
-sıcaklık 20 derece üzerinde ise hava sıcak yazsın
-sıcaklık 20 derece ve altında ise hava soğuk yazsın
- */
-
         System.out.println("--------------------------");
+                /*
+Class Task 2
+kullanıcıdan bir tam sayı alın
+ekrana tek mi çift mi olduğunu yazdırın
+ */
 
         Scanner input = new Scanner(System.in);
         System.out.println("Sayi giriniz : ");
@@ -43,11 +47,7 @@ sıcaklık 20 derece ve altında ise hava soğuk yazsın
 
 
 
-        /*
-Class Task 2
-kullanıcıdan bir tam sayı alın
-ekrana tek mi çift mi olduğunu yazdırın
- */
+
 
 
 

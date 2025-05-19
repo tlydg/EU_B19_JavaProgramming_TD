@@ -4,7 +4,7 @@ public class C03_NestedIf {
     public static void main(String[] args) {
         // write a program that checks if the given number is divisable by 2,3,6
 
-        int sayi =60;
+        int sayi =11;
 
         if (sayi %2 ==0 ){
             System.out.println(sayi + " can be divided by 2");

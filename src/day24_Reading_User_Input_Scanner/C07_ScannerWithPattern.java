@@ -17,6 +17,5 @@ public class C07_ScannerWithPattern {
         String tel = scanner.next(telKalip);
         System.out.println("tel = " + tel);
 
-
     }
 }

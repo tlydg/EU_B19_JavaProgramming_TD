@@ -7,7 +7,7 @@ public class C01_GeometricShape {
         // geometrik şekil olduğunu tespit eden bir program yazın.
         // 3-6 arası kenar sayısı kabul etsin
 
-        int kenarSayisi = 3;
+        int kenarSayisi = 7;
         String sekil = ""; // bu yapıyı çok kulllanacağız alış.
 
         if ( kenarSayisi ==3){

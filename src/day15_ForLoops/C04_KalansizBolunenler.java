@@ -2,25 +2,20 @@ package day15_ForLoops;
 
 public class C04_KalansizBolunenler {
     public static void main(String[] args) {
+
         // 1 ile 100 arasında 5 ile kalansız bölünen sayıları yazdırın.
 
         for (int i = 1; i <= 100 ; i++ ){
-
             if(i % 5 == 0){
-
                 System.out.println("i = " + i);
             }
-
         }
 
         System.out.println("----------------------");
         //2. yol
 
-
         for (int i = 5; i <= 100 ; i+=5 ){
             System.out.println("i = " + i);
-
-
         }
 
         System.out.println("----------------------");
@@ -33,9 +28,9 @@ public class C04_KalansizBolunenler {
             if(i % 6 == 0  ){
                 toplam += i;
             }
-
         }
         System.out.println("toplam = " + toplam);
+
         System.out.println("----------------------");
 
         // 2. yol

@@ -16,9 +16,9 @@ public class C04_UnaryOperators {
         System.out.println("--------------------------");
 
         ++a;  //  preincrement   : sayının değerini hemen bir arttırıyorum. --öncesinde artır
-        System.out.println(a);
+        System.out.println(a); // 11
 
-        System.out.println(++a);
+        System.out.println(++a); //12
 
         --a; // predecrement : sayının değerini hemen bir azaltır.
 

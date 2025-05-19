@@ -38,23 +38,14 @@ geçme notunu yazdırın
         System.out.println("ortalama = " + ortalama);
 
         if (ortalama>=90 && ortalama <= 100){
-
             System.out.println("Sınav notunuz : A ");
-
         } else if (ortalama >= 80 && ortalama < 90) {
-
             System.out.println("Sınav notunuz : B ");
-
         } else if (ortalama >= 70 && ortalama < 80) {
-
             System.out.println("Sınav notunuz : C ");
-
         } else if ( ortalama >= 60 && ortalama < 70) {
-
             System.out.println("Sınav notunuz : D");
-
         }else {
-
             System.out.println("Sınav notunuz : F");
         }
         System.out.println("Program bitti.");

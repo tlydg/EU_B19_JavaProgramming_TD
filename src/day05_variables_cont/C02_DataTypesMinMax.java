@@ -5,7 +5,7 @@ public class C02_DataTypesMinMax {
     public static void main(String[] args) {
 
         //byte
-        byte byteMin =Byte.MIN_VALUE;
+        byte byteMin = Byte.MIN_VALUE;
         System.out.println("byteMin = " + byteMin);
 
         byte byteMax = Byte.MAX_VALUE;

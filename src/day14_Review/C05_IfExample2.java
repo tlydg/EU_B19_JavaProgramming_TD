@@ -2,12 +2,12 @@ package day14_Review;
 
 public class C05_IfExample2 {
     public static void main(String[] args) {
-        // Elimizde belirli sayıda 5 kilo ve ve 1 kiloluk un pkaetleri var
+        // Elimizde belirli sayıda 5 kilo ve ve 1 kiloluk un paketleri var
         // Müşterinin istediği kilo sayıda paketleri verip vermediğimizi kontrol edin.
 
         int beslikPaketSayisi = 4;
         int birlikPaketSayisi = 4;
-        int talep= 0;
+        int talep= 10;
         boolean karsilanabilirMi = false;
 
        if (talep > 0){

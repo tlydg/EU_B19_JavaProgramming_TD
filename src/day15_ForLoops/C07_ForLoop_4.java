@@ -19,10 +19,11 @@ public class C07_ForLoop_4 {
         System.out.println("------------------------");
 
         // Birden fazla condtion kullanılabilir
-        for (int i=3; i <10 && i > 2; i++ ){
+        for (int i=3; i < 10 && i > 2; i++ ){
             System.out.println("i = " + i);
         }
-        System.out.println("----------------------");
+
+        System.out.println("----------------------------------");
 
         // başlangıç değeri loop dışından gelebiir.
         int x =5;
@@ -31,6 +32,7 @@ public class C07_ForLoop_4 {
 
         }
 
+        System.out.println("--------------------------------");
         // artırma ya da eksiltme kod blokunun içinde de olabilir.
 
         for (int i = 10; i > 0; ){
@@ -38,7 +40,7 @@ public class C07_ForLoop_4 {
             System.out.println(i);
 
         }
-        System.out.println("---------------------");
+        System.out.println("---------------------------------");
         // Çift sayaç (index) kullanılabilir.
 
         for (int i = 0, k =0; i <= 5; i++ , k += 2){

@@ -22,7 +22,6 @@ public class C06_Calculator {
         System.out.println("2. sayıyı giriniz : ");
         int sayi2 = input.nextInt();
 
-
         switch (islemOperatoru) {
             case "+" -> sonuc = sayi1 + sayi2;
             case "-" -> sonuc = sayi1 - sayi2;

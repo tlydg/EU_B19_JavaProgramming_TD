@@ -1,0 +1,46 @@
+package day48_AbstractClass.Cake;
+
+public class VanilyaliKek extends BaseKek {
+
+    private int vanilya;
+
+    public VanilyaliKek(int yumurta, int un, int seker, int kabartmaTozu, int sut, int yag) {
+        super(yumurta, un, seker, kabartmaTozu, sut, yag);
+    }
+
+    public int getVanilya() {
+        return vanilya;
+    }
+
+    public void setVanilya(int vanilya) {
+        this.vanilya = vanilya;
+    }
+
+    @Override
+    public void karistir() {
+        System.out.println("Aşağıdaki malzemeleri karıştırma kabına koy");
+        System.out.println("En az 5 dakika karıştır");
+        System.out.println("Un             = " + getUn());
+        System.out.println("KabartmaTozu   = " + getKabartmaTozu());
+        System.out.println("Seker          = " + getSeker());
+        System.out.println("Sut            = " + getSut());
+        System.out.println("Yag            = " + getYag());
+        System.out.println("Yumurta        = " + getYumurta());
+        System.out.println("Vanilya      = " +   getVanilya());
+
+        System.out.println("Büütn malzemeler karıştırıldı");
+
+        setMixed(true);
+
+    }
+
+    @Override
+    public void pisir() {
+        if(isMixed()){
+            System.out.println("kek pişirilir");
+        }else {
+            System.out.println("Önce keki karıştır");
+        }
+
+    }
+}

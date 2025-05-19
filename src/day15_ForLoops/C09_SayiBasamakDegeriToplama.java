@@ -8,7 +8,7 @@ public class C09_SayiBasamakDegeriToplama {
         // klavyeden girilen sayının basamak değeri toplamını veren kod
         // örnek : 123 = 6
         // 45897 = 33
-        // meraklısına : aynı loop içnde basamak sayısını da bulabilirsiniz.
+        // meraklısına : aynı loop içinde basamak sayısını da bulabilirsiniz.
 
         //psvm main metot kısa yolu
 

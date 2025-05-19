@@ -77,8 +77,7 @@ public class C06_LogicalOperatorsExample {
      person is eligible to buy Cigarettes. In USA it is illegal to sell tabacco under age 21.
      print console : Ahmet is eligible to buy cigarettes: true/false
     */
-       // 2. Day08_09 daki kalan tum tasklar yapilacak studyRoom 3 e atilacak.
-      //  3. Mutlaka kapsamli bir tekrar yapip, pazartesini eksiksiz olarak baslayalim. Iyi calismalar, iyi hafta sonlari.
+
 
 
         /*

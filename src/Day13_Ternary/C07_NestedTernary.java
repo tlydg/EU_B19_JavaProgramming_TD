@@ -31,7 +31,6 @@ public class C07_NestedTernary {
         // else if 2.yol
 
         if (x > y && x >z){
-
             max = x;
         } else if (y>z) {
             max = y;

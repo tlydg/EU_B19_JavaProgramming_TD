@@ -40,7 +40,7 @@ public class C10_SwitchCaseHomework2 {
             case 10 -> ayAdi = "Ekim";
             case 11 -> ayAdi = "Kasım";
             case 12 -> ayAdi = "Aralık";
-            default -> System.out.println("geersiz ay bilgisi");
+            default -> System.out.println("geçersiz ay bilgisi");
         }
         switch (ayNumarasi){
             case 12,1,2 -> mevsim = "kis";
@@ -49,7 +49,7 @@ public class C10_SwitchCaseHomework2 {
             default -> System.out.println("Geçersiz mevsim bilgisi");
         }
         if (ayAdi != ""){
-            System.out.println("Ayinin Adi " + ayAdi+ " 'dir." + " Ve " + mevsim + " mevsimi ' dir. ");
+            System.out.println("Ayin Adi " + ayAdi+ " 'dir." + " Ve " + mevsim + " mevsimi ' dir. ");
 
         }
     }
